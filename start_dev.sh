@@ -18,5 +18,4 @@ exec erl -sname eiko \
     -boot start_sasl \
     -eiko_core config ${CONFIG} \
     -s reloader \
-    -s lager \
     -s eiko_core
